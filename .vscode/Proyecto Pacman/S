@@ -1,0 +1,18 @@
+#include<stdio.h>
+
+int main(){
+
+int x, y, res;
+
+printf("Por favor ingresa tu primer valor:");
+scanf("%f",&x);
+
+printf("Ahora ingresa el siguiente valor:");
+scanf("%f",&y);
+
+res=x+y;
+
+printf("La respuesta es:%f",&res);
+return 0;
+
+}
